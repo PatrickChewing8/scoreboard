@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="scoreboard">
+                    <h2 id="home-score">0</h2>
+                </div>
+                    <button class="btn" id="home-score-btn-1" onclick="increaseHomeScoreBy1()">Extra Point</button>
+                    <button class="btn" id="home-score-btn-2" onclick="increaseHomeScoreBy2()">Safety</button>
+                    <button class="btn" id="home-score-btn-3" onclick="increaseHomeScoreBy3()">Field Goal</button>
+                    <button class="btn" id="home-score-btn-6" onclick="increaseHomeScoreBy6()">Touchdown</button>
+            </div>
+            <div>
+                <h3>AWAY</h3>
+                <div class="scoreboard">
+                    <h2 id="away-score">0</h2>
+                </div>
+                    <button class="btn" id="away-score-btn-1" onclick="increaseAwayScoreBy1()">Extra Point</button>
+                    <button class="btn" id="away-score-btn-2" onclick="increaseAwayScoreBy2()">Safety</button>
+                    <button class="btn" id="away-score-btn-3" onclick="increaseAwayScoreBy3()">Field Goal</button>
+                    <button class="btn" id="away-score-btn-6" onclick="increaseAwayScoreBy6()">Touchdown</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

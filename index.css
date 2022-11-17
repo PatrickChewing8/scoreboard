@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: green;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    color: red;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.btn {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: 1px 1px 1px 1px;
+    font-size: 20px;
+    border: 2px solid brown;
+    border-radius: 4px;
+}
+
+/* #home-score {
+    display: flex;
+    justify-content: center;
+    color: red;
+    background-color: black;
+}
+
+#away-score {
+    display: flex;
+    justify-content: center;
+    color: red;
+    background-color: black;
+    
+} */
